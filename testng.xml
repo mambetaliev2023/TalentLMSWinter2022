@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Chingiz/IdeaProjects/Winter2022TAF">
+        <classes>
+            <class name="annotations.DemoClass">
+                <methods>
+                    <include name="DemoTest1"/>
+                    <include name="DemoTest2"/>
+                </methods>
+            </class>
+            <class name="annotations.DemoClass2">
+                <methods>
+                    <include name="testSum"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="testing.TestNGDemo">
+                <methods>
+                    <include name="createNewUserTest"/>
+                    <include name="loginTest"/>
+                    <include name="testLoginFun"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
